@@ -1,0 +1,21 @@
+Mongoose is a ORM, basically it is used to set connection between your MongoDB and code. It is like an intermidiate between them..
+
+when you using the Typescript, you first decide the data's type first -> interface common data type we used
+
+All these schema are part of the Documnet so that we use like extends Document
+this syntax tell us about the structure so,
+
+exporting data in NextJs is very interesting thing,
+In nextjs things run at edge time, when you created backend with the expresse 
+then it run first getting schema and all then you made server and when you 
+start later on because it initialze the first so it continue to working there 
+is acknowledgement of the that server that it not started first,
+
+But, in nextjs it does not know weather this application start first time or 
+it start again and again or you mean 2nd time , so that is issue in the nextjs
+
+that's why data export in the nextjs is slightly different, we gave two 
+condition if it is first time or it already run first time just re run this 
+srever
+
+ZOD -> It is Typescript-first Schema Validation

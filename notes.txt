@@ -28,3 +28,24 @@ remains continue
 
 void -> you learn in the cpp and void in the Typescript both are different started
 in TS -> void is we don't care how data is comming in this situation..
+
+Now when you designing the any sign-up page you must know, 
+you code handle both the cases of registration of new user and updating
+an existing unverified user account with new password and verification code
+mean,
+you code must do registration along with someone who registered but not verify their 
+id using the verification code and another user want the same username and he 
+verify his id then the 2nd user must get that id and 1st user id name is chnaged
+
+We develope algo for that,
+
+if(existingUserByEmail){
+    if(existingUserByEmail.isVerified){
+        getSuchUser: false
+    }else{
+        save the updated user(using new pass key)
+    }
+}else{
+    create new user with provided details
+    save new user
+}

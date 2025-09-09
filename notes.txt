@@ -19,3 +19,12 @@ condition if it is first time or it already run first time just re run this
 srever
 
 ZOD -> It is Typescript-first Schema Validation
+
+DB connection is very easy task when you creating full backend server, when your application start and connected 
+to the backend then it continuously start but in next this not happen in next it is edge time framework 
+so, your application not running all the time, when user request come in the server then it backend server start, 
+specially all next js function works on the time, but in othere backend you create and connect to the server then it 
+remains continue 
+
+void -> you learn in the cpp and void in the Typescript both are different started
+in TS -> void is we don't care how data is comming in this situation..
